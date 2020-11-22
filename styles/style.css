@@ -1,0 +1,23 @@
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator {
+    width: 500px;
+}
+
+.number,
+.operand,
+#evaluate,
+#display,
+#clear {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    height: 100px;
+}
